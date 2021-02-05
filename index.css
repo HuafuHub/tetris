@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+#tetris {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+#tetris .status {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 100, 255, 0.5);
+  z-index: 99;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50%;
+  box-sizing: border-box;
+}
+#tetris .tip {
+  position: relative;
+  background-color: #ccc;
+}
+#tetris .tip .score {
+  text-align: center;
+}
+#tetris .tip > p {
+  text-align: center;
+}
+#tetris .tip .msg {
+  font-size: 14px;
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+.playing {
+  display: none !important;
+}
+
